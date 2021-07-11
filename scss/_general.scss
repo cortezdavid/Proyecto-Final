@@ -2,8 +2,13 @@
 	font-family: $fuente;
 }
 
+html{
+    height: 100%;
+}
+
 body{
-	background-color: #50c5b6;
+    height: 100%;
+    background-color: $colorSecundario;
 }
 
 h1, h2, h3, h4, h5, h6{

@@ -12,147 +12,37 @@
     <title>CompuNext | Inicio</title>
   </head>
   <body>
-    <div id="header" class="container-fluid px-0">
-      <div class="banner d-flex justify-content-between align-items-center">
-        <a class="d-md-block d-none" href="index.html"><img src="media/logo.png"></a>
-        <a class="d-md-none show" href="index.html"><img src="media/logo-mov.png"></a>
-        <input class="d-md-block d-none" type="text" placeholder="Buscar">
+    <div id="header">     
+      <div id="nav" class="d-flex align-items-center fixed-top container-fluid">
+        <nav class="container-fluid navbar navbar-expand-md navbar-light">
+          <div class="logo">
+            <a class="d-md-block d-none" href="index.html"><img src="media/logo.png" alt=""></a>
+            <a class="d-md-none show" href="index.html"><img src="media/logo-mov.png"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item borderBottom">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
 
-    <div id="nav" class="container-fluid px-0 fixed-top">
-      <nav class="navbar navbar-expand-sm navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center col-12" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-    <div id="bodyHome" class="container-fluid px-0">
-      <div class="backgroundHome d-flex justify-content-center align-items-center text-center">
-        <div class="title">
-          <h1 class="d-sm-block d-none">COMPUNEXT</h1>
-          <h2 class="d-sm-none show">COMPUNEXT</h2>
-          <h4>Venta - Reparaciones - Accesorios - Y mucho más</h4>
-        </div>
-      </div>
-      <h2 class="subTitle">Productos nuevos</h2>
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="d-flex justify-content-around flex-wrap text-center">
-              <div class="producto">
-                <img src="media/teclado.jpg">
-                <h5>TECLADO MECANICO HYPERX</h5>
-                <p>$8.049</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/mouse.jpg">
-                <h5>MOUSE INALÁMBRICO</h5>
-                <p>$749</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/auricular.jpg">
-                <h5>AURICULAR WIRELESS</h5>
-                <p>$4.239</p>
-                <button class="button">Comprar</button>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="d-flex justify-content-around flex-wrap text-center">
-              <div class="producto">
-                <img src="media/mouse.jpg">
-                <h5>MOUSE INALÁMBRICO</h5>
-                <p>$749</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/auricular.jpg">
-                <h5>AURICULAR WIRELESS</h5>
-                <p>$4.239</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/monitor.jpg">
-                <h5>MONITOR 22" PHILIPS</h5>
-                <p>$20.269</p>
-                <button class="button">Comprar</button>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="d-flex justify-content-around flex-wrap text-center">
-              <div class="producto">
-                <img src="media/auricular.jpg">
-                <h5>AURICULAR WIRELESS</h5>
-                <p>$4.239</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/monitor.jpg">
-                <h5>MONITOR 22" PHILIPS</h5>
-                <p>$20.269</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/teclado.jpg">
-                <h5>TECLADO MECANICO HYPERX</h5>
-                <p>$8.049</p>
-                <button class="button">Comprar</button>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="d-flex justify-content-around flex-wrap text-center">
-              <div class="producto">
-                <img src="media/monitor.jpg">
-                <h5>MONITOR 22" PHILIPS</h5>
-                <p>$20.269</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/teclado.jpg">
-                <h5>TECLADOMECANICO HYPERX</h5>
-                <p>$8.049</p>
-                <button class="button">Comprar</button>
-              </div>
-              <div class="producto d-md-inline d-none">
-                <img src="media/mouse.jpg">
-                <h5>MOUSE INALÁMBRICO</h5>
-                <p>$749</p>
-                <button class="button">Comprar</button>
-              </div>
-            </div>
-          </div> 
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Siguiente</span>
-        </a>
-      </div>
+    <div id="home">
     </div>
 
     <div id="footer" class="container-fluid d-flex justify-content-between flex-wrap">
@@ -176,5 +66,6 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="js/index.js" type="text/javascript"></script>
   </body>
 </html>

@@ -1,26 +1,8 @@
-#bodyHome{
-	color: $colorBlanco;
-	.backgroundHome{
-		height: 500px;
-		background-image: url("../media/fondo1.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-	h1{
-		font-size: 5.4rem;
-	}
-	.subTitle{
-		padding: 10px;
-	}
-}
-
-#carouselExampleControls{
-	color: $colorNegro;
-	.carousel-inner{
-		img{
-			width: 230px;
-   			height: 65%;
-		}
-	}
+#home{
+	background-image: url("../media/fondo1.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }

@@ -1,19 +1,22 @@
-#nav{
+#nav li{
+	margin-right: 12px;
+  	margin-left: 12px
+}
+
+.navFondo{
+ background-color: $colorPrincipal;
+ transition: all 0.5s ease;
+ box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.75);
+}
+
+.borderBottom{
+  border-bottom: 3px solid red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colorBlanco;
+}
+
+.navbar-toggler{
 	background-color: $colorBlanco;
-	ul{
-		font-size: 1.3rem;
-	}
-	li{
-		margin-left: 30px;
-		margin-right: 30px;
-	}
-	a{
-		color: $colorPrincipal;
-		&:hover{
-			color: red;
-		}
-	}
-	.navbar{
-		padding: 0;
-	}
 }
