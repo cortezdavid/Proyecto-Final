@@ -1,0 +1,14 @@
+#body{
+	.producto{
+		background-color: $colorBlanco;
+		margin-bottom: 25px;
+		img{
+			width: 230px;
+			height: 65%;
+		}
+	}
+	.nav-link{
+		background-color: $colorPrincipal;
+		color: $colorBlanco;
+	}
+}

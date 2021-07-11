@@ -1,0 +1,19 @@
+#footer{
+	background-color: $colorPrincipal;
+	color: $colorBlanco;
+	padding: 20px 15px;
+	margin-top: 30px;
+	.tituloFooter{
+		margin-top: 10px;
+	}
+	p{
+		margin-bottom: 0;
+	}
+	img{
+		width: 50px;
+		&:hover{
+			transform: translateY(3px);
+		}
+	}
+
+}

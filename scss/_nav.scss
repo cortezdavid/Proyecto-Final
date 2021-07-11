@@ -1,0 +1,19 @@
+#nav{
+	background-color: $colorBlanco;
+	ul{
+		font-size: 1.3rem;
+	}
+	li{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	a{
+		color: $colorPrincipal;
+		&:hover{
+			color: red;
+		}
+	}
+	.navbar{
+		padding: 0;
+	}
+}

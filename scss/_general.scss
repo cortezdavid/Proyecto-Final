@@ -1,0 +1,31 @@
+*{
+	font-family: $fuente;
+}
+
+body{
+	background-color: #50c5b6;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+}
+
+#body{
+    h1{
+        color: $colorPrincipal;
+    }
+}
+
+.button{
+	padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: $colorPrincipal;
+    color: $colorBlanco;
+    &:hover{
+    	cursor:pointer;
+    }
+    &:active{
+    	transform: translateY(3px);
+    }
+}

@@ -1,0 +1,19 @@
+#body{
+	.formulario{
+		label{
+			font-size: 1.2rem;
+		}
+		input, textarea{
+			padding: 5px;
+			&:focus{
+				outline: 0;
+				border-color: none;
+				border: 3px solid $colorPrincipal;
+			}
+		}
+		textarea{
+			padding: 5px;
+			height: 160px;
+		}
+	}
+}
