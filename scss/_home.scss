@@ -6,3 +6,13 @@
     background-size: cover;
     height: 100%;
 }
+
+#carouselExampleControls{
+    color: $colorNegro;
+    .carousel-inner{
+        img{
+            width: 230px;
+            height: 65%;
+        }
+    }
+}

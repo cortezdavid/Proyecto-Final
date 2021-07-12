@@ -1,12 +1,11 @@
 #nav li{
 	margin-right: 12px;
-  	margin-left: 12px
+  margin-left: 12px
 }
 
 .navFondo{
  background-color: $colorPrincipal;
  transition: all 0.5s ease;
- box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.75);
 }
 
 .borderBottom{
@@ -15,6 +14,9 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: $colorBlanco;
+    &:hover{
+      color: red;
+    }
 }
 
 .navbar-toggler{
