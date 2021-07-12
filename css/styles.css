@@ -116,10 +116,9 @@ h1, h2, h3, h4, h5, h6 {
 #body .nosotros {
   background-image: url(../media/nosotros.png);
   background-repeat: no-repeat;
-  background-size: 100px 100px;
+  background-size: 70px;
   background-position: right top;
   margin-bottom: 50px;
-  height: 100px;
 }
 
 #body .nosotros p {
