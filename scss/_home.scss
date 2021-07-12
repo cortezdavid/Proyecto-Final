@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    color: $colorBlanco;
+    h1{
+        font-size: 5.4rem;
+    }
 }
 
 #carouselExampleControls{
@@ -15,4 +19,10 @@
             height: 65%;
         }
     }
+}
+
+#article{
+    .subTitle{
+       padding: 10px; 
+    } 
 }

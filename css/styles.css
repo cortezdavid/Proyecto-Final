@@ -79,6 +79,11 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  color: #ffffff;
+}
+
+#home h1 {
+  font-size: 5.4rem;
 }
 
 #carouselExampleControls {
@@ -88,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 #carouselExampleControls .carousel-inner img {
   width: 230px;
   height: 65%;
+}
+
+#article .subTitle {
+  padding: 10px;
 }
 
 #body .producto {
