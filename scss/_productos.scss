@@ -22,3 +22,17 @@
 		font-size: 1.1rem;
 	}
 }
+
+.modal-content{
+	background-color: $colorSecundario;
+	color: $colorBlanco;
+}
+
+.modal-header{
+	background-color: $colorPrincipal;
+	border-bottom: none;
+}
+
+.modal-footer{
+	border-top: none;
+}

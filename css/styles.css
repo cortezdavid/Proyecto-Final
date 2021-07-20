@@ -126,6 +126,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.1rem;
 }
 
+.modal-content {
+  background-color: #50c5b6;
+  color: #ffffff;
+}
+
+.modal-header {
+  background-color: #1e75a9;
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
 #body .nosotros {
   background-image: url(../media/nosotros.png);
   background-repeat: no-repeat;
