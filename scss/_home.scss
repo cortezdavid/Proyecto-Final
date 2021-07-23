@@ -1,5 +1,5 @@
 #home{
-	background-image: url("../media/fondo1.jpg");
+	background-image: url("../media/fondo1mov.jpg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,9 @@
     color: $colorBlanco;
     h1{
         font-size: 5.4rem;
+    }
+    @media (min-width: 576px){
+        background-image: url("../media/fondo1.jpg");
     }
 }
 
