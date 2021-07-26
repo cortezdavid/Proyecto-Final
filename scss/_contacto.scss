@@ -8,7 +8,6 @@
 			&:focus{
 				outline: 0;
 				border-color: none;
-				border: 3px solid $colorPrincipal;
 			}
 		}
 		textarea{
@@ -16,5 +15,15 @@
 			padding: 5px;
 			height: 160px;
 		}
+		.enviar{
+			border: 2px solid $colorBlanco;
+		}
+	}
+	.contactoFondo{
+		background-color: $colorPrincipal;
+		border-radius: 20px;
+		padding: 20px;
+		color: $colorBlanco;
+		margin-bottom: 30px;
 	}
 }

@@ -11,17 +11,16 @@
 	p{
 		margin-bottom: 0;
 	}
+}
 	
-	.logoRedes{
-		a{
-			color: $colorBlanco;
-			&:hover{
-				transform: translateY(5px);
-			}
-		}
-		i{
-			font-size: 45px;
+.logoRedes{
+	a{
+		color: $colorBlanco;
+		&:hover{
+			transform: translateY(5px);
 		}
 	}
-
+	i{
+		font-size: 45px;
+	}
 }

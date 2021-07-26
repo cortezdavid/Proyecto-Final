@@ -208,13 +208,24 @@ h1, h2, h3, h4, h5, h6 {
 #body .formulario input:focus, #body .formulario textarea:focus {
   outline: 0;
   border-color: none;
-  border: 3px solid #1e75a9;
 }
 
 #body .formulario textarea {
   resize: none;
   padding: 5px;
   height: 160px;
+}
+
+#body .formulario .enviar {
+  border: 2px solid #ffffff;
+}
+
+#body .contactoFondo {
+  background-color: #1e75a9;
+  border-radius: 20px;
+  padding: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
 #footer {
@@ -232,14 +243,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-#footer .logoRedes a {
+.logoRedes a {
   color: #ffffff;
 }
 
-#footer .logoRedes a:hover {
+.logoRedes a:hover {
   transform: translateY(5px);
 }
 
-#footer .logoRedes i {
+.logoRedes i {
   font-size: 45px;
 }
