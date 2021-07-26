@@ -177,6 +177,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+#body .nosotros img {
+  height: 50%;
+}
+
 #body .caja {
   margin-bottom: 20px;
   padding: 10px;
