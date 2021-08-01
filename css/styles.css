@@ -60,8 +60,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav li {
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #nav li a {
@@ -230,6 +230,39 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
   color: #ffffff;
   margin-bottom: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  border: 3px solid #50c5b6;
+}
+
+.card .card-header {
+  background-color: #1e75a9;
+  outline: none;
+}
+
+.card .card-header .btn-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card .card-header .btn {
+  font-size: 1.1rem;
+}
+
+.card .card-header .btn:focus {
+  box-shadow: none;
+}
+
+.card .card-body {
+  font-size: 1.1rem;
+}
+
+.card .card-body a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #1e75a9;
 }
 
 #footer {

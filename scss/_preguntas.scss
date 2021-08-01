@@ -1,0 +1,26 @@
+.card{
+	border-radius: 20px;
+	border: 3px solid $colorSecundario;
+	.card-header{
+		background-color: $colorPrincipal;
+		outline: none;
+		.btn-link{
+			color: $colorBlanco;
+			text-decoration: none;
+		}
+		.btn{
+			font-size: 1.1rem;
+			&:focus{
+				box-shadow: none;
+			}
+		}
+	}
+	.card-body{
+		font-size: 1.1rem;
+		a{
+			text-decoration: none;
+			font-weight: 700;
+			color: $colorPrincipal;
+		}
+	}
+}
